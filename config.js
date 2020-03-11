@@ -42,7 +42,6 @@ const config = {
 		"links": [
 			{ "text": "Amazon Connect", "link": "https://aws.amazon.com/connect/"},
 			{ "text": "Amazon Connect Console", "link": "https://console.aws.amazon.com/connect/home"},
-			{ "text": "Build In The Cloud", "link": "https://www.buildinthe.cloud"},
 			{ "text": "AWS Programming & Tools", "link": "https://www.meetup.com/Melbourne-AWS-Programming-and-Tools-Meetup/"}
 		],
 		"frontline": false,

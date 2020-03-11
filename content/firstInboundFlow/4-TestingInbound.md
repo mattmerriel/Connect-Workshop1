@@ -1,6 +1,6 @@
 ---
 title: "Testing Inbound"
-metaTitle: "Teszting Inbound Calls"
+metaTitle: "Testing Inbound Calls"
 metaDescription: "Testing our First Inbound DID"
 ---
 
