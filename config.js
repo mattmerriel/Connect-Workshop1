@@ -1,6 +1,6 @@
 const config = {
 	"gatsby": {
-		"pathPrefix": "/introduction",
+		"pathPrefix": "/",
 		"siteUrl": "https://workshop.buildinthe.cloud/connect/getting-started",
 		"gaTrackingId": null,
 		"trailingSlash": false
