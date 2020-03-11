@@ -8,6 +8,8 @@ import config from '../../config.js';
 import Loadable from 'react-loadable';
 import LoadingProvider from './mdxComponents/loading';
 
+import Sidebar from "./sidebar";
+
 const help = require('./images/help.svg');
 const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
 
@@ -18,7 +20,7 @@ if(isSearchEnabled && config.header.search.indexName) {
   );
 }
 
-import Sidebar from "./sidebar";
+
 
 const LoadableComponent = Loadable({
   loader: () => import('./search/index'),
@@ -78,7 +80,7 @@ const Header = ({location}) => (
           <nav className={'navBarDefault'}>
             <div className={'navBarHeader'}>
               <Link to={finalLogoLink} className={'navBarBrand'}>
-                <img className={'img-responsive displayInline'} src={(logo.image !== '') ? logo.image : logoImg} alt={'logo'} />
+                {/*  <img className={'img-responsive displayInline'} src={(logo.image !== '') ? logo.image : logoImg} alt={'logo'} /> */}
               </Link>
               <div className={"headerTitle displayInline"} dangerouslySetInnerHTML={{__html: headerTitle}} />
               <span onClick={myFunction} className={'navBarToggle'}>

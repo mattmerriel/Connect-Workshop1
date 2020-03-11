@@ -5,7 +5,7 @@ metaDescription: "Connecting Contact Flow to DID"
 ---
 
 ## Overview
-We have our phone number and we have our Contact Flow... now it's time to join the two together and tell Connect that whenever our phone number is dialed, it should use our new Contact Flow.
+Time for us to apply the new Contact Flow to our pre-existing Toll-Free phone number, much like we did in the previous part of the workshop.
 
 ## Routing our calls
 
@@ -18,7 +18,7 @@ We have our phone number and we have our Contact Flow... now it's time to join t
 Here we can see that we are presented with several settings we can change including the Description as well as the "Contact flow / IVR" that's being used.
 ![Something](./addingInteractivity-22.png)
 
-3. Here we can select the Contact Flow/IVR that it's using. From the drop-down list, select <b>"OurFirstFlow"</b> (or whatever you called it).
+3. Here we can select the Contact Flow/IVR that it's using. From the drop-down list, select <b>"Main Incoming"</b> (or whatever you called it).
 ![Something](./addingInteractivity-23.png)
 
 4. Click <b>"Save"</b>
@@ -28,4 +28,4 @@ Here we can see that we are presented with several settings we can change includ
 ![Something](./addingInteractivity-25.png)
 
 ## Next Steps
-Next Step is to create a new Contact Flow to handle the incoming calls to your new <b>1800 XXX XXX</b> phone number. Click <b>Create Contact Flow</b> to move onto the next step of tasks.
+With our new Contact Flow in place it's time for us to move onto the next phase and test our IVR.
