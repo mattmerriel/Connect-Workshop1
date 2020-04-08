@@ -16,9 +16,8 @@ This Workshop builds on the information learnt in the pervious parts of the work
 | <b>Introduction</b> | (This Page) provides an introduction and instructions on creating the required AWS environment. |
 | <b>Connect Setup</b> | This Section is a quick revisit on how we can setup an Amazon Connect Instance. |
 | <b>Adding a Lambda Function</b> | Here we integrate our first AWS Lambda function to provide logic into our contact flow |
-| <b>Logging customer details</b> | In this part, we expand our new Lambda Function and log the calling parties phone number into a DynamoDB table. |
-| <b>Handling Lambda responses</b> | Here we can check to see if the caller has rung through before. |
-| <b>Adding Conditional Contact Flows</b> | Finally, we will configure our agents who will be responsible for answering our calls. |
+| <b>Logging customer details</b> | In this part, we expand our new Lambda Function and log the calling parties phone number into a DynamoDB table and return if they have rang previously. |
+| <b>Handling Lambda responses</b> | Finally, we will add some conditional logic to our contact flow. |
 
 At the end of this Workshop you will have an Amazon Connect environment that performs a simple check to all incoming calls to see if the caller has rang the contact centre before and play a custom message if they have. In future Amazon Connect Workshops, we will expand on this by adding predictive algorithms, chatbot functionality and other advanced features to provide our callers and agents with a seamless, reliable experience.
 

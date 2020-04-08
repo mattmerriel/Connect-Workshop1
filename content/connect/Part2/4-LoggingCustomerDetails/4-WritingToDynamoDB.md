@@ -69,4 +69,4 @@ The code above adds both the logic to write to the DynamoDB table as well as the
 ![Execution Role](./LoggingCustomerDetails-19.png)
 
 ## Next Steps
-We now have the CallerId Records being written to the DynamoDB table. In the next section, we will update the code to return if the caller has rang before. You can proceed to the next chapter of the workshop be clicking the link below or on the sidebar to the left.
+We now have the CallerId Records being written to the DynamoDB table. In the next chapter we will perform a check to see if the caller has rang previously and return that to the contact centre in the response payload. You can proceed to the next chapter of the workshop be clicking the link below or on the sidebar to the left.
