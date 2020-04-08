@@ -25,19 +25,22 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/introduction", // add trailing slash if enabled above
-			"/connectSetup",
-			"/firstInboundFlow",
-			"/addingInteractivity",
-			"/validatingOurLogging",
-			"/enablingAgents"
+			"/connect"
+			//"/connect/Part1/introduction", // add trailing slash if enabled above
+			//"/connect/Part1/connectSetup",
+			//"/connect/Part1/firstInboundFlow",
+			//"/connect/Part1/addingInteractivity",
+			//"/connect/Part1/validatingOurLogging",
+			//"/connect/Part1/enablingAgents",
+			//"/connect/Part1/summary"
 		],
     	"collapsedNav": [
-			  "/connectSetup", // add trailing slash if enabled above
-			  "/firstInboundFlow",
-			  "/addingInteractivity",
-			  "/validatingOurLogging",
-			  "/enablingAgents"
+			  "/connect",
+			  "/connect/Part1" // add trailing slash if enabled above
+			  //"/connect/Part1/firstInboundFlow",
+			  //"/connect/Part1/addingInteractivity",
+			  //"/connect/Part1/validatingOurLogging",
+			  //"/connect/Part1/enablingAgents"
     	],
 		"links": [
 			{ "text": "Amazon Connect", "link": "https://aws.amazon.com/connect/"},
