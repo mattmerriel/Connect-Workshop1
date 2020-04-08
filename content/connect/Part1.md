@@ -1,5 +1,5 @@
 ---
-title: "Part 1: Getting Started"
+title: "Workshop 1: Getting Started"
 metaTitle: "Setup Amazon Connect"
 metaDescription: "Setting up our Amazon Connect Instance"
 ---

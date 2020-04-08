@@ -1,5 +1,5 @@
 ---
-title: "Part 2: Adding Lambda Functions"
+title: "Workshop 2: Adding Lambda Functions"
 metaTitle: "Setup Amazon Connect"
 metaDescription: "Setting up our Amazon Connect Instance"
 ---
